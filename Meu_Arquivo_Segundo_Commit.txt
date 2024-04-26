@@ -1,0 +1,15 @@
+// var:
+// var foi a forma original de declarar variáveis em JavaScript.
+// As variáveis declaradas com var têm escopo local dentro de uma função ou escopo global (se declaradas fora de qualquer função).
+// Elas podem ser redeclaradas e atualizadas em qualquer lugar no código.
+// No entanto, variáveis var são "hoisted" (içadas), o que significa que são elevadas para o topo do seu contexto de execução durante a fase de compilação. Isso pode levar a comportamentos inesperados em algumas situações.
+// let:
+// let foi introduzido no ECMAScript 6 (também conhecido como ES6) e é uma forma mais moderna de declarar variáveis.
+// Variáveis declaradas com let têm escopo de bloco, o que significa que elas só são visíveis dentro do bloco onde foram definidas (por exemplo, dentro de um loop for, if, ou uma função).
+// Elas não podem ser redeclaradas no mesmo escopo.
+// Além disso, as variáveis let não são hoisted, o que pode evitar alguns comportamentos inesperados associados ao var.
+// const:
+// const também foi introduzido no ECMAScript 6.
+// Ele cria uma referência imutável para um valor. Isso significa que o valor da variável não pode ser reatribuído.
+// Assim como let, as variáveis const têm escopo de bloco e não são hoisted.
+// No entanto, é importante notar que, para tipos de dados mutáveis como "objetos e arrays", o valor em si pode ser modificado, mas não é possível reatribuir a variável a outro objeto ou array.
